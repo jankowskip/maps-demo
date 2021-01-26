@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~leaflet/dist/leaflet.css";
+
+.leaf-marker-label {
+  margin-top: 5px;
+  min-width: 50px;
+  opacity: .6;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 11px;
+  padding: 3px 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.mapbox-marker {
+  background-image: url('assets/marker-truck.png');
+  background-size: cover;
+  width: 20px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.mapbox-label {
+  text-align: center;
+  top: 28px;
+  white-space: nowrap;
+  position: absolute;
+  left: -16px;
+  opacity: 0.6;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 11px;
+  margin-top: 2px;
+  padding: 1px 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mapboxgl-ctrl-geocoder--icon {
+  display: none;
+}
+
+.leaflet-routing-alt h2 {
+  display: none;
+}
+
+.leaflet-bar-part-single {
+  display: none !important;
+}
+
+.reset {
+  display: none !important;
+}
+
+.leaflet-routing-container {
+  opacity: 0.6;
+  background: white;
+  border: none !important;
+  margin: 0 !important;
+
+}
+
+img.leaflet-marker-icon {
+  display: none !important;
+}
+
+.leaflet-cluster {
+  color: #fff;
+  text-align: center;
+  min-width: 40px;
+  min-height: 40px;
+  line-height: 40px;
+  background-color: #004C93;
+  border-radius: 50%;
+}
+
+.leaf-marker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
