@@ -7,7 +7,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -28,6 +28,7 @@
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@types/mapbox-gl": "^2.0.3",
     "@types/ol": "^6.4.2",
+    "express": "^4.17.1",
     "leaflet": "^1.7.1",
     "leaflet-geosearch": "^3.2.1",
     "leaflet-routing-machine": "^3.2.12",
